@@ -1,0 +1,5111 @@
+{
+ "version": "2.0",
+ "palette": "palette.hex",
+ "scales": [
+  1,
+  2,
+  3
+ ],
+ "entries": [
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "card_frames_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     8,
+     11,
+     32,
+     32
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "title_rect": [
+     7,
+     4,
+     34,
+     5
+    ],
+    "text_rect": [
+     6,
+     50,
+     36,
+     10
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "card_frames_1x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     8,
+     11,
+     32,
+     32
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "title_rect": [
+     7,
+     4,
+     34,
+     5
+    ],
+    "text_rect": [
+     6,
+     50,
+     36,
+     10
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "card_frames_1x.png",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "card_frames_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     16,
+     22,
+     64,
+     64
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "title_rect": [
+     14,
+     8,
+     68,
+     10
+    ],
+    "text_rect": [
+     12,
+     100,
+     72,
+     20
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "card_frames_2x.png",
+   "x": 96,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     16,
+     22,
+     64,
+     64
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "title_rect": [
+     14,
+     8,
+     68,
+     10
+    ],
+    "text_rect": [
+     12,
+     100,
+     72,
+     20
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "card_frames_2x.png",
+   "x": 192,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "card_frames_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     24,
+     33,
+     96,
+     96
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "title_rect": [
+     21,
+     12,
+     102,
+     15
+    ],
+    "text_rect": [
+     18,
+     150,
+     108,
+     30
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "card_frames_3x.png",
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     24,
+     33,
+     96,
+     96
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "title_rect": [
+     21,
+     12,
+     102,
+     15
+    ],
+    "text_rect": [
+     18,
+     150,
+     108,
+     30
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "card_frames_3x.png",
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 1,
+   "sheet": "nine_slice_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 24,
+   "h": 32,
+   "file": "1x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 6,
+     "top": 6,
+     "right": 6,
+     "bottom": 6
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 1,
+   "sheet": "nine_slice_1x.png",
+   "x": 24,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 4,
+     "top": 4,
+     "right": 4,
+     "bottom": 4
+    }
+   }
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 2,
+   "sheet": "nine_slice_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "2x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 12,
+     "top": 12,
+     "right": 12,
+     "bottom": 12
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 2,
+   "sheet": "nine_slice_2x.png",
+   "x": 48,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 8,
+     "top": 8,
+     "right": 8,
+     "bottom": 8
+    }
+   }
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 3,
+   "sheet": "nine_slice_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 72,
+   "h": 96,
+   "file": "3x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 18,
+     "top": 18,
+     "right": 18,
+     "bottom": 18
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 3,
+   "sheet": "nine_slice_3x.png",
+   "x": 72,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 12,
+     "top": 12,
+     "right": 12,
+     "bottom": 12
+    }
+   }
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 1,
+   "sheet": "cost_gems_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 1,
+   "sheet": "cost_gems_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 2,
+   "sheet": "cost_gems_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 2,
+   "sheet": "cost_gems_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 3,
+   "sheet": "cost_gems_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 3,
+   "sheet": "cost_gems_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 1,
+   "sheet": "badges_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 1,
+   "sheet": "badges_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 2,
+   "sheet": "badges_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 2,
+   "sheet": "badges_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 3,
+   "sheet": "badges_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 3,
+   "sheet": "badges_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "card_art_1x.png",
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 64,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 128,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 192,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 256,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "card_art_2x.png",
+   "x": 320,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 96,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 192,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 288,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 384,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "card_art_3x.png",
+   "x": 480,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 64,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "intents_status_1x.png",
+   "x": 80,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 128,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "intents_status_2x.png",
+   "x": 160,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 144,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 192,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "intents_status_3x.png",
+   "x": 240,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 1,
+   "sheet": "energy_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 1,
+   "sheet": "energy_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 2,
+   "sheet": "energy_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 2,
+   "sheet": "energy_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 3,
+   "sheet": "energy_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 3,
+   "sheet": "energy_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 1,
+   "sheet": "piles_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 24,
+   "h": 24,
+   "file": "1x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 1,
+   "sheet": "piles_1x.png",
+   "x": 24,
+   "y": 0,
+   "w": 24,
+   "h": 24,
+   "file": "1x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 2,
+   "sheet": "piles_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "2x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 2,
+   "sheet": "piles_2x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "2x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 3,
+   "sheet": "piles_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 72,
+   "h": 72,
+   "file": "3x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 3,
+   "sheet": "piles_3x.png",
+   "x": 72,
+   "y": 0,
+   "w": 72,
+   "h": 72,
+   "file": "3x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "relics_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "relics_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "relics_1x.png",
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "relics_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "relics_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "relics_2x.png",
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "relics_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "relics_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "relics_3x.png",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "map_nodes_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "map_nodes_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "map_nodes_1x.png",
+   "x": 32,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "map_nodes_1x.png",
+   "x": 48,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "map_nodes_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "map_nodes_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "map_nodes_2x.png",
+   "x": 64,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "map_nodes_2x.png",
+   "x": 96,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "map_nodes_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "map_nodes_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "map_nodes_3x.png",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "map_nodes_3x.png",
+   "x": 144,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 1,
+   "sheet": "enemies_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 2,
+   "sheet": "enemies_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 3,
+   "sheet": "enemies_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 1,
+   "sheet": "card_frames_large_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 72,
+   "h": 104,
+   "file": "1x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     16,
+     4,
+     50,
+     8
+    ],
+    "art_rect": [
+     6,
+     14,
+     60,
+     36
+    ],
+    "type_rect": [
+     8,
+     53,
+     46,
+     5
+    ],
+    "set_slot_rect": [
+     59,
+     52,
+     7,
+     7
+    ],
+    "text_rect": [
+     8,
+     62,
+     56,
+     31
+    ],
+    "footer_rect": [
+     8,
+     96,
+     44,
+     5
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "nine_slice": {
+     "left": 18,
+     "top": 62,
+     "right": 18,
+     "bottom": 12,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "104": [
+      8,
+      62,
+      56,
+      31
+     ],
+     "120": [
+      8,
+      62,
+      56,
+      47
+     ],
+     "136": [
+      8,
+      62,
+      56,
+      63
+     ],
+     "152": [
+      8,
+      62,
+      56,
+      79
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 2,
+   "sheet": "card_frames_large_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 208,
+   "file": "2x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     32,
+     8,
+     100,
+     16
+    ],
+    "art_rect": [
+     12,
+     28,
+     120,
+     72
+    ],
+    "type_rect": [
+     16,
+     106,
+     92,
+     10
+    ],
+    "set_slot_rect": [
+     118,
+     104,
+     14,
+     14
+    ],
+    "text_rect": [
+     16,
+     124,
+     112,
+     62
+    ],
+    "footer_rect": [
+     16,
+     192,
+     88,
+     10
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "nine_slice": {
+     "left": 36,
+     "top": 124,
+     "right": 36,
+     "bottom": 24,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "208": [
+      16,
+      124,
+      112,
+      62
+     ],
+     "240": [
+      16,
+      124,
+      112,
+      94
+     ],
+     "272": [
+      16,
+      124,
+      112,
+      126
+     ],
+     "304": [
+      16,
+      124,
+      112,
+      158
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 3,
+   "sheet": "card_frames_large_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 216,
+   "h": 312,
+   "file": "3x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     48,
+     12,
+     150,
+     24
+    ],
+    "art_rect": [
+     18,
+     42,
+     180,
+     108
+    ],
+    "type_rect": [
+     24,
+     159,
+     138,
+     15
+    ],
+    "set_slot_rect": [
+     177,
+     156,
+     21,
+     21
+    ],
+    "text_rect": [
+     24,
+     186,
+     168,
+     93
+    ],
+    "footer_rect": [
+     24,
+     288,
+     132,
+     15
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "nine_slice": {
+     "left": 54,
+     "top": 186,
+     "right": 54,
+     "bottom": 36,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "312": [
+      24,
+      186,
+      168,
+      93
+     ],
+     "360": [
+      24,
+      186,
+      168,
+      141
+     ],
+     "408": [
+      24,
+      186,
+      168,
+      189
+     ],
+     "456": [
+      24,
+      186,
+      168,
+      237
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 1,
+   "sheet": "card_frames_text_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     16,
+     4,
+     25,
+     5
+    ],
+    "art_rect": [
+     8,
+     12,
+     32,
+     12
+    ],
+    "text_rect": [
+     7,
+     32,
+     34,
+     26
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "nine_slice": {
+     "left": 16,
+     "top": 32,
+     "right": 16,
+     "bottom": 7,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "64": [
+      7,
+      32,
+      34,
+      26
+     ],
+     "72": [
+      7,
+      32,
+      34,
+      34
+     ],
+     "80": [
+      7,
+      32,
+      34,
+      42
+     ],
+     "88": [
+      7,
+      32,
+      34,
+      50
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 2,
+   "sheet": "card_frames_text_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     32,
+     8,
+     50,
+     10
+    ],
+    "art_rect": [
+     16,
+     24,
+     64,
+     24
+    ],
+    "text_rect": [
+     14,
+     64,
+     68,
+     52
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "nine_slice": {
+     "left": 32,
+     "top": 64,
+     "right": 32,
+     "bottom": 14,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "128": [
+      14,
+      64,
+      68,
+      52
+     ],
+     "144": [
+      14,
+      64,
+      68,
+      68
+     ],
+     "160": [
+      14,
+      64,
+      68,
+      84
+     ],
+     "176": [
+      14,
+      64,
+      68,
+      100
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 3,
+   "sheet": "card_frames_text_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     48,
+     12,
+     75,
+     15
+    ],
+    "art_rect": [
+     24,
+     36,
+     96,
+     36
+    ],
+    "text_rect": [
+     21,
+     96,
+     102,
+     78
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "nine_slice": {
+     "left": 48,
+     "top": 96,
+     "right": 48,
+     "bottom": 21,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "192": [
+      21,
+      96,
+      102,
+      78
+     ],
+     "216": [
+      21,
+      96,
+      102,
+      102
+     ],
+     "240": [
+      21,
+      96,
+      102,
+      126
+     ],
+     "264": [
+      21,
+      96,
+      102,
+      150
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 1,
+   "sheet": "card_backs_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 72,
+   "h": 104,
+   "file": "1x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 1,
+   "sheet": "card_backs_1x.png",
+   "x": 72,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     5,
+     5,
+     38,
+     54
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 2,
+   "sheet": "card_backs_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 208,
+   "file": "2x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 2,
+   "sheet": "card_backs_2x.png",
+   "x": 144,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     10,
+     10,
+     76,
+     108
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 3,
+   "sheet": "card_backs_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 216,
+   "h": 312,
+   "file": "3x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 3,
+   "sheet": "card_backs_3x.png",
+   "x": 216,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     15,
+     15,
+     114,
+     162
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 1,
+   "sheet": "stat_badges_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     8,
+     9
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 1,
+   "sheet": "stat_badges_1x.png",
+   "x": 16,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 2,
+   "sheet": "stat_badges_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     16,
+     18
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 2,
+   "sheet": "stat_badges_2x.png",
+   "x": 32,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     16,
+     16
+    ]
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 3,
+   "sheet": "stat_badges_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     24,
+     27
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 3,
+   "sheet": "stat_badges_3x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     24,
+     24
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 1,
+   "sheet": "counters_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 2,
+   "sheet": "counters_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     16,
+     16
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 3,
+   "sheet": "counters_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     24,
+     24
+    ]
+   }
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "numbers_small_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "numbers_small_1x.png",
+   "x": 5,
+   "y": 0,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "numbers_small_1x.png",
+   "x": 10,
+   "y": 0,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "numbers_small_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "numbers_small_2x.png",
+   "x": 10,
+   "y": 0,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "numbers_small_2x.png",
+   "x": 20,
+   "y": 0,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "numbers_small_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "numbers_small_3x.png",
+   "x": 15,
+   "y": 0,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "numbers_small_3x.png",
+   "x": 30,
+   "y": 0,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 1,
+   "sheet": "keyword_chips_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 11,
+   "file": "1x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 11,
+     "top": 3,
+     "right": 4,
+     "bottom": 3,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     6,
+     5
+    ],
+    "text_rect": [
+     12,
+     3,
+     16,
+     5
+    ]
+   }
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 2,
+   "sheet": "keyword_chips_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 22,
+   "file": "2x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 22,
+     "top": 6,
+     "right": 8,
+     "bottom": 6,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     12,
+     10
+    ],
+    "text_rect": [
+     24,
+     6,
+     32,
+     10
+    ]
+   }
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 3,
+   "sheet": "keyword_chips_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 33,
+   "file": "3x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 33,
+     "top": 9,
+     "right": 12,
+     "bottom": 9,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     18,
+     15
+    ],
+    "text_rect": [
+     36,
+     9,
+     48,
+     15
+    ]
+   }
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 1,
+   "sheet": "keyword_icons_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "file": "1x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 1,
+   "sheet": "keyword_icons_1x.png",
+   "x": 10,
+   "y": 0,
+   "w": 10,
+   "h": 10,
+   "file": "1x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 2,
+   "sheet": "keyword_icons_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 20,
+   "h": 20,
+   "file": "2x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 2,
+   "sheet": "keyword_icons_2x.png",
+   "x": 20,
+   "y": 0,
+   "w": 20,
+   "h": 20,
+   "file": "2x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 3,
+   "sheet": "keyword_icons_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 30,
+   "h": 30,
+   "file": "3x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 3,
+   "sheet": "keyword_icons_3x.png",
+   "x": 30,
+   "y": 0,
+   "w": 30,
+   "h": 30,
+   "file": "3x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 1,
+   "sheet": "upgrade_markers_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 12,
+   "h": 10,
+   "file": "1x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 2,
+   "sheet": "upgrade_markers_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 24,
+   "h": 20,
+   "file": "2x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 3,
+   "sheet": "upgrade_markers_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 36,
+   "h": 30,
+   "file": "3x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 1,
+   "sheet": "tokens_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 2,
+   "sheet": "tokens_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 3,
+   "sheet": "tokens_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 1,
+   "sheet": "status_stacks_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 9,
+   "h": 9,
+   "file": "1x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     4,
+     4
+    ],
+    "anchor_on_16px_icon": [
+     9,
+     9
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 2,
+   "sheet": "status_stacks_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 18,
+   "h": 18,
+   "file": "2x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ],
+    "anchor_on_16px_icon": [
+     18,
+     18
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 3,
+   "sheet": "status_stacks_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 27,
+   "h": 27,
+   "file": "3x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     12,
+     12
+    ],
+    "anchor_on_16px_icon": [
+     27,
+     27
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  },
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 0,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     8,
+     11,
+     32,
+     32
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "title_rect": [
+     7,
+     4,
+     34,
+     5
+    ],
+    "text_rect": [
+     6,
+     50,
+     36,
+     10
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 48,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     8,
+     11,
+     32,
+     32
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "title_rect": [
+     7,
+     4,
+     34,
+     5
+    ],
+    "text_rect": [
+     6,
+     50,
+     36,
+     10
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 96,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 144,
+   "y": 0,
+   "w": 24,
+   "h": 32,
+   "file": "1x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 6,
+     "top": 6,
+     "right": 6,
+     "bottom": 6
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 168,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 4,
+     "top": 4,
+     "right": 4,
+     "bottom": 4
+    }
+   }
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 184,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 200,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 216,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 232,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 248,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 280,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 312,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 344,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 376,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 408,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "1x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 440,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 456,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 472,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 488,
+   "y": 0,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 0,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 16,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 32,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 48,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 64,
+   "y": 64,
+   "w": 24,
+   "h": 24,
+   "file": "1x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 88,
+   "y": 64,
+   "w": 24,
+   "h": 24,
+   "file": "1x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 112,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 128,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 144,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 160,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 176,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 192,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 208,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 224,
+   "y": 64,
+   "w": 32,
+   "h": 32,
+   "file": "1x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 256,
+   "y": 64,
+   "w": 72,
+   "h": 104,
+   "file": "1x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     16,
+     4,
+     50,
+     8
+    ],
+    "art_rect": [
+     6,
+     14,
+     60,
+     36
+    ],
+    "type_rect": [
+     8,
+     53,
+     46,
+     5
+    ],
+    "set_slot_rect": [
+     59,
+     52,
+     7,
+     7
+    ],
+    "text_rect": [
+     8,
+     62,
+     56,
+     31
+    ],
+    "footer_rect": [
+     8,
+     96,
+     44,
+     5
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "nine_slice": {
+     "left": 18,
+     "top": 62,
+     "right": 18,
+     "bottom": 12,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "104": [
+      8,
+      62,
+      56,
+      31
+     ],
+     "120": [
+      8,
+      62,
+      56,
+      47
+     ],
+     "136": [
+      8,
+      62,
+      56,
+      63
+     ],
+     "152": [
+      8,
+      62,
+      56,
+      79
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 328,
+   "y": 64,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     16,
+     4,
+     25,
+     5
+    ],
+    "art_rect": [
+     8,
+     12,
+     32,
+     12
+    ],
+    "text_rect": [
+     7,
+     32,
+     34,
+     26
+    ],
+    "cost_center": [
+     8,
+     8
+    ],
+    "nine_slice": {
+     "left": 16,
+     "top": 32,
+     "right": 16,
+     "bottom": 7,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "64": [
+      7,
+      32,
+      34,
+      26
+     ],
+     "72": [
+      7,
+      32,
+      34,
+      34
+     ],
+     "80": [
+      7,
+      32,
+      34,
+      42
+     ],
+     "88": [
+      7,
+      32,
+      34,
+      50
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 376,
+   "y": 64,
+   "w": 72,
+   "h": 104,
+   "file": "1x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 448,
+   "y": 64,
+   "w": 48,
+   "h": 64,
+   "file": "1x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     5,
+     5,
+     38,
+     54
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 496,
+   "y": 64,
+   "w": 16,
+   "h": 16,
+   "file": "1x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     8,
+     9
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 0,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "file": "1x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 16,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "file": "1x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ]
+   }
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 32,
+   "y": 168,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 37,
+   "y": 168,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 42,
+   "y": 168,
+   "w": 5,
+   "h": 7,
+   "file": "1x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 47,
+   "y": 168,
+   "w": 32,
+   "h": 11,
+   "file": "1x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 11,
+     "top": 3,
+     "right": 4,
+     "bottom": 3,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     6,
+     5
+    ],
+    "text_rect": [
+     12,
+     3,
+     16,
+     5
+    ]
+   }
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 79,
+   "y": 168,
+   "w": 10,
+   "h": 10,
+   "file": "1x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 89,
+   "y": 168,
+   "w": 10,
+   "h": 10,
+   "file": "1x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 99,
+   "y": 168,
+   "w": 12,
+   "h": 10,
+   "file": "1x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 111,
+   "y": 168,
+   "w": 16,
+   "h": 16,
+   "file": "1x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 1,
+   "sheet": "all_1x.png",
+   "x": 127,
+   "y": 168,
+   "w": 9,
+   "h": 9,
+   "file": "1x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     4,
+     4
+    ],
+    "anchor_on_16px_icon": [
+     9,
+     9
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  },
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     16,
+     22,
+     64,
+     64
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "title_rect": [
+     14,
+     8,
+     68,
+     10
+    ],
+    "text_rect": [
+     12,
+     100,
+     72,
+     20
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 96,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     16,
+     22,
+     64,
+     64
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "title_rect": [
+     14,
+     8,
+     68,
+     10
+    ],
+    "text_rect": [
+     12,
+     100,
+     72,
+     20
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 192,
+   "y": 0,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 288,
+   "y": 0,
+   "w": 48,
+   "h": 64,
+   "file": "2x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 12,
+     "top": 12,
+     "right": 12,
+     "bottom": 12
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 336,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 8,
+     "top": 8,
+     "right": 8,
+     "bottom": 8
+    }
+   }
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 368,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 400,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 432,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 464,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 496,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 560,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 624,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 688,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 752,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 816,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "file": "2x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 880,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 912,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 944,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 976,
+   "y": 0,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 0,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 32,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 64,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 96,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 128,
+   "y": 128,
+   "w": 48,
+   "h": 48,
+   "file": "2x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 176,
+   "y": 128,
+   "w": 48,
+   "h": 48,
+   "file": "2x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 224,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 256,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 288,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 320,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 352,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 384,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 416,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 448,
+   "y": 128,
+   "w": 64,
+   "h": 64,
+   "file": "2x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 512,
+   "y": 128,
+   "w": 144,
+   "h": 208,
+   "file": "2x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     32,
+     8,
+     100,
+     16
+    ],
+    "art_rect": [
+     12,
+     28,
+     120,
+     72
+    ],
+    "type_rect": [
+     16,
+     106,
+     92,
+     10
+    ],
+    "set_slot_rect": [
+     118,
+     104,
+     14,
+     14
+    ],
+    "text_rect": [
+     16,
+     124,
+     112,
+     62
+    ],
+    "footer_rect": [
+     16,
+     192,
+     88,
+     10
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "nine_slice": {
+     "left": 36,
+     "top": 124,
+     "right": 36,
+     "bottom": 24,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "208": [
+      16,
+      124,
+      112,
+      62
+     ],
+     "240": [
+      16,
+      124,
+      112,
+      94
+     ],
+     "272": [
+      16,
+      124,
+      112,
+      126
+     ],
+     "304": [
+      16,
+      124,
+      112,
+      158
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 656,
+   "y": 128,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     32,
+     8,
+     50,
+     10
+    ],
+    "art_rect": [
+     16,
+     24,
+     64,
+     24
+    ],
+    "text_rect": [
+     14,
+     64,
+     68,
+     52
+    ],
+    "cost_center": [
+     16,
+     16
+    ],
+    "nine_slice": {
+     "left": 32,
+     "top": 64,
+     "right": 32,
+     "bottom": 14,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "128": [
+      14,
+      64,
+      68,
+      52
+     ],
+     "144": [
+      14,
+      64,
+      68,
+      68
+     ],
+     "160": [
+      14,
+      64,
+      68,
+      84
+     ],
+     "176": [
+      14,
+      64,
+      68,
+      100
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 752,
+   "y": 128,
+   "w": 144,
+   "h": 208,
+   "file": "2x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 896,
+   "y": 128,
+   "w": 96,
+   "h": 128,
+   "file": "2x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     10,
+     10,
+     76,
+     108
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 992,
+   "y": 128,
+   "w": 32,
+   "h": 32,
+   "file": "2x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     16,
+     18
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 0,
+   "y": 336,
+   "w": 32,
+   "h": 32,
+   "file": "2x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     16,
+     16
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 32,
+   "y": 336,
+   "w": 32,
+   "h": 32,
+   "file": "2x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     16,
+     16
+    ]
+   }
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 64,
+   "y": 336,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 74,
+   "y": 336,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 84,
+   "y": 336,
+   "w": 10,
+   "h": 14,
+   "file": "2x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 94,
+   "y": 336,
+   "w": 64,
+   "h": 22,
+   "file": "2x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 22,
+     "top": 6,
+     "right": 8,
+     "bottom": 6,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     12,
+     10
+    ],
+    "text_rect": [
+     24,
+     6,
+     32,
+     10
+    ]
+   }
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 158,
+   "y": 336,
+   "w": 20,
+   "h": 20,
+   "file": "2x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 178,
+   "y": 336,
+   "w": 20,
+   "h": 20,
+   "file": "2x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 198,
+   "y": 336,
+   "w": 24,
+   "h": 20,
+   "file": "2x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 222,
+   "y": 336,
+   "w": 32,
+   "h": 32,
+   "file": "2x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 2,
+   "sheet": "all_2x.png",
+   "x": 254,
+   "y": 336,
+   "w": 18,
+   "h": 18,
+   "file": "2x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     8,
+     8
+    ],
+    "anchor_on_16px_icon": [
+     18,
+     18
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  },
+  {
+   "name": "card_attack_common",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 0,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_attack_common.png",
+   "meta": {
+    "art_rect": [
+     24,
+     33,
+     96,
+     96
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "title_rect": [
+     21,
+     12,
+     102,
+     15
+    ],
+    "text_rect": [
+     18,
+     150,
+     108,
+     30
+    ]
+   }
+  },
+  {
+   "name": "card_skill_common",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 144,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_skill_common.png",
+   "meta": {
+    "art_rect": [
+     24,
+     33,
+     96,
+     96
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "title_rect": [
+     21,
+     12,
+     102,
+     15
+    ],
+    "text_rect": [
+     18,
+     150,
+     108,
+     30
+    ]
+   }
+  },
+  {
+   "name": "card_back",
+   "category": "card_frames",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 288,
+   "y": 0,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames/card_back.png",
+   "meta": {}
+  },
+  {
+   "name": "nine_card_attack",
+   "category": "nine_slice",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 432,
+   "y": 0,
+   "w": 72,
+   "h": 96,
+   "file": "3x/nine_slice/nine_card_attack.png",
+   "meta": {
+    "nine_slice": {
+     "left": 18,
+     "top": 18,
+     "right": 18,
+     "bottom": 18
+    }
+   }
+  },
+  {
+   "name": "nine_tooltip",
+   "category": "nine_slice",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 504,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/nine_slice/nine_tooltip.png",
+   "meta": {
+    "nine_slice": {
+     "left": 12,
+     "top": 12,
+     "right": 12,
+     "bottom": 12
+    }
+   }
+  },
+  {
+   "name": "gem_cost_1",
+   "category": "cost_gems",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 552,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/cost_gems/gem_cost_1.png",
+   "meta": {}
+  },
+  {
+   "name": "gem_cost_2",
+   "category": "cost_gems",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 600,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/cost_gems/gem_cost_2.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_attack",
+   "category": "badges",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 648,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/badges/badge_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "badge_skill",
+   "category": "badges",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 696,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/badges/badge_skill.png",
+   "meta": {}
+  },
+  {
+   "name": "art_strike",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 744,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_strike.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_fireball",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 840,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_fireball.png",
+   "meta": {
+    "card_type": "attack"
+   }
+  },
+  {
+   "name": "art_defend",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 936,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_defend.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_healing_herb",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1032,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_healing_herb.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_brew_potion",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1128,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_brew_potion.png",
+   "meta": {
+    "card_type": "skill"
+   }
+  },
+  {
+   "name": "art_moonlight",
+   "category": "card_art",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1224,
+   "y": 0,
+   "w": 96,
+   "h": 96,
+   "file": "3x/card_art/art_moonlight.png",
+   "meta": {
+    "card_type": "power"
+   }
+  },
+  {
+   "name": "intent_attack",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1320,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_attack.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_block",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1368,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_block.png",
+   "meta": {}
+  },
+  {
+   "name": "intent_buff",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1416,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/intent_buff.png",
+   "meta": {}
+  },
+  {
+   "name": "status_poison",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1464,
+   "y": 0,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_poison.png",
+   "meta": {}
+  },
+  {
+   "name": "status_burn",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 0,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_burn.png",
+   "meta": {}
+  },
+  {
+   "name": "status_freeze",
+   "category": "intents_status",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 48,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/intents_status/status_freeze.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_full",
+   "category": "energy",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 96,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/energy/energy_orb_full.png",
+   "meta": {}
+  },
+  {
+   "name": "energy_orb_empty",
+   "category": "energy",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 144,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/energy/energy_orb_empty.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_draw",
+   "category": "piles",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 192,
+   "y": 192,
+   "w": 72,
+   "h": 72,
+   "file": "3x/piles/pile_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "pile_discard",
+   "category": "piles",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 264,
+   "y": 192,
+   "w": 72,
+   "h": 72,
+   "file": "3x/piles/pile_discard.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_ruby_ring",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 336,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_ruby_ring.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_old_coin",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 384,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_old_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "relic_lantern",
+   "category": "relics",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 432,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/relics/relic_lantern.png",
+   "meta": {}
+  },
+  {
+   "name": "node_battle",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 480,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_battle.png",
+   "meta": {}
+  },
+  {
+   "name": "node_boss",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 528,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_boss.png",
+   "meta": {}
+  },
+  {
+   "name": "node_rest",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 576,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_rest.png",
+   "meta": {}
+  },
+  {
+   "name": "node_shop",
+   "category": "map_nodes",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 624,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/map_nodes/node_shop.png",
+   "meta": {}
+  },
+  {
+   "name": "enemy_slime",
+   "category": "enemies",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 672,
+   "y": 192,
+   "w": 96,
+   "h": 96,
+   "file": "3x/enemies/enemy_slime.png",
+   "meta": {}
+  },
+  {
+   "name": "large_attack_common",
+   "category": "card_frames_large",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 768,
+   "y": 192,
+   "w": 216,
+   "h": 312,
+   "file": "3x/card_frames_large/large_attack_common.png",
+   "meta": {
+    "title_rect": [
+     48,
+     12,
+     150,
+     24
+    ],
+    "art_rect": [
+     18,
+     42,
+     180,
+     108
+    ],
+    "type_rect": [
+     24,
+     159,
+     138,
+     15
+    ],
+    "set_slot_rect": [
+     177,
+     156,
+     21,
+     21
+    ],
+    "text_rect": [
+     24,
+     186,
+     168,
+     93
+    ],
+    "footer_rect": [
+     24,
+     288,
+     132,
+     15
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "nine_slice": {
+     "left": 54,
+     "top": 186,
+     "right": 54,
+     "bottom": 36,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect and footer_rect move or grow with the extra height; title_rect, art_rect, type_rect and text_rect grow with the extra width; the cost gem and set slot stay in the corners.",
+    "text_rect_by_height": {
+     "312": [
+      24,
+      186,
+      168,
+      93
+     ],
+     "360": [
+      24,
+      186,
+      168,
+      141
+     ],
+     "408": [
+      24,
+      186,
+      168,
+      189
+     ],
+     "456": [
+      24,
+      186,
+      168,
+      237
+     ]
+    },
+    "text_lines_tiny": 5,
+    "title_chars_tiny": 12
+   }
+  },
+  {
+   "name": "text_skill_common",
+   "category": "card_frames_text",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 984,
+   "y": 192,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_frames_text/text_skill_common.png",
+   "meta": {
+    "title_rect": [
+     48,
+     12,
+     75,
+     15
+    ],
+    "art_rect": [
+     24,
+     36,
+     96,
+     36
+    ],
+    "text_rect": [
+     21,
+     96,
+     102,
+     78
+    ],
+    "cost_center": [
+     24,
+     24
+    ],
+    "nine_slice": {
+     "left": 48,
+     "top": 96,
+     "right": 48,
+     "bottom": 21,
+     "mode": "tile"
+    },
+    "grow": "When stretched with nine_slice, text_rect grows with the extra width and height.",
+    "text_rect_by_height": {
+     "192": [
+      21,
+      96,
+      102,
+      78
+     ],
+     "216": [
+      21,
+      96,
+      102,
+      102
+     ],
+     "240": [
+      21,
+      96,
+      102,
+      126
+     ],
+     "264": [
+      21,
+      96,
+      102,
+      150
+     ]
+    },
+    "text_lines_tiny": 4,
+    "art_note": "Small art window: show a 32x12 crop (for example rows 10 to 21) of a 32x32 card art."
+   }
+  },
+  {
+   "name": "back_large_night_moon",
+   "category": "card_backs",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1128,
+   "y": 192,
+   "w": 216,
+   "h": 312,
+   "file": "3x/card_backs/back_large_night_moon.png",
+   "meta": {
+    "size": "large"
+   }
+  },
+  {
+   "name": "back_blank",
+   "category": "card_backs",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1344,
+   "y": 192,
+   "w": 144,
+   "h": 192,
+   "file": "3x/card_backs/back_blank.png",
+   "meta": {
+    "size": "compact",
+    "art_rect": [
+     15,
+     15,
+     114,
+     162
+    ],
+    "note": "transparent centre: draw your own back design under the frame"
+   }
+  },
+  {
+   "name": "stat_attack",
+   "category": "stat_badges",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 1488,
+   "y": 192,
+   "w": 48,
+   "h": 48,
+   "file": "3x/stat_badges/stat_attack.png",
+   "meta": {
+    "number_center": [
+     24,
+     27
+    ]
+   }
+  },
+  {
+   "name": "stat_health",
+   "category": "stat_badges",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 0,
+   "y": 504,
+   "w": 48,
+   "h": 48,
+   "file": "3x/stat_badges/stat_health.png",
+   "meta": {
+    "number_center": [
+     24,
+     24
+    ]
+   }
+  },
+  {
+   "name": "counter_round_wood",
+   "category": "counters",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 48,
+   "y": 504,
+   "w": 48,
+   "h": 48,
+   "file": "3x/counters/counter_round_wood.png",
+   "meta": {
+    "number_center": [
+     24,
+     24
+    ]
+   }
+  },
+  {
+   "name": "num_1",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 96,
+   "y": 504,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_1.png",
+   "meta": {}
+  },
+  {
+   "name": "num_2",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 111,
+   "y": 504,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_2.png",
+   "meta": {}
+  },
+  {
+   "name": "num_3",
+   "category": "numbers_small",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 126,
+   "y": 504,
+   "w": 15,
+   "h": 21,
+   "file": "3x/numbers_small/num_3.png",
+   "meta": {}
+  },
+  {
+   "name": "chip_neutral",
+   "category": "keyword_chips",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 141,
+   "y": 504,
+   "w": 96,
+   "h": 33,
+   "file": "3x/keyword_chips/chip_neutral.png",
+   "meta": {
+    "nine_slice": {
+     "left": 33,
+     "top": 9,
+     "right": 12,
+     "bottom": 9,
+     "mode": "tile_x"
+    },
+    "icon_center": [
+     18,
+     15
+    ],
+    "text_rect": [
+     36,
+     9,
+     48,
+     15
+    ]
+   }
+  },
+  {
+   "name": "kw_exhaust",
+   "category": "keyword_icons",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 237,
+   "y": 504,
+   "w": 30,
+   "h": 30,
+   "file": "3x/keyword_icons/kw_exhaust.png",
+   "meta": {}
+  },
+  {
+   "name": "kw_draw",
+   "category": "keyword_icons",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 267,
+   "y": 504,
+   "w": 30,
+   "h": 30,
+   "file": "3x/keyword_icons/kw_draw.png",
+   "meta": {}
+  },
+  {
+   "name": "upgrade_plus",
+   "category": "upgrade_markers",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 297,
+   "y": 504,
+   "w": 36,
+   "h": 30,
+   "file": "3x/upgrade_markers/upgrade_plus.png",
+   "meta": {}
+  },
+  {
+   "name": "token_coin",
+   "category": "tokens",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 333,
+   "y": 504,
+   "w": 48,
+   "h": 48,
+   "file": "3x/tokens/token_coin.png",
+   "meta": {}
+  },
+  {
+   "name": "stack_plate_dark",
+   "category": "status_stacks",
+   "scale": 3,
+   "sheet": "all_3x.png",
+   "x": 381,
+   "y": 504,
+   "w": 27,
+   "h": 27,
+   "file": "3x/status_stacks/stack_plate_dark.png",
+   "meta": {
+    "number_center": [
+     12,
+     12
+    ],
+    "anchor_on_16px_icon": [
+     27,
+     27
+    ],
+    "note": "place over the bottom right of a 16x16 status icon, then draw a 3x5 num_ digit centred on number_center"
+   }
+  }
+ ]
+}
