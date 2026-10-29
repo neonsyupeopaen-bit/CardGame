@@ -1,8 +1,16 @@
+using UnityEditor.ShaderGraph.Serialization;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 
 public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUpHandler, IPointerEnterHandler, IPointerExitHandler
 {
+    [Header("카드 스킬 설정")]
+    [SerializeField] CardType cardType;
+    [SerializeField] int amount = 0;
+    [SerializeField] int cost = 0;
+    [Header("카드 사용 설정")]
+    public LayerMask characterLayer;
     [Header("Drag 설정")]
     [SerializeField] private RectTransform dragArea;
 
@@ -61,6 +69,52 @@ public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUp
     {
         if (!isDragging) return;
         isDragging = false;
+
+        if (CostManager.Instance.Mana < cost)
+        {
+            rect.SetParent(originalParent);
+            rect.localPosition = originalPosition;
+            rect.localRotation = originalRotation;
+            return;
+        }
+
+        bool used = false;
+
+        Vector2 mouseposition = Mouse.current.position.ReadValue();
+        Ray ray = Camera.main.ScreenPointToRay(mouseposition);
+        RaycastHit2D hit = Physics2D.GetRayIntersection(ray, 100f, characterLayer);
+
+        if(hit.collider != null)
+        {
+            Character target = hit.transform.GetComponent<Character>();
+
+            if(target != null)
+            {
+                if (cardType == CardType.Attack && target.isEnemy)
+                {
+                    target.TakeDamage(amount);
+                    used = true;
+                }
+                else if (cardType == CardType.Heal && target.isEnemy == false)
+                {
+                    target.Heal(amount);
+                    used = true;
+                }
+                else if (cardType == CardType.Utility)
+                {
+                    Debug.Log("마나 회복 스킬 사용");
+                    CostManager.Instance.RestoreMana(amount);
+                    used = true;
+                }
+            }
+
+        }
+        if (used)
+        {
+            CostManager.Instance.UseMana(cost);
+            Destroy(gameObject);
+            return;
+        }
 
         rect.SetParent(originalParent);
         rect.localPosition = originalPosition;
