@@ -12,20 +12,27 @@ public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUp
     [Header("카드 사용 설정")]
     public LayerMask characterLayer;
     [Header("Drag 설정")]
-    [SerializeField] private RectTransform dragArea;
+    
 
     private Vector3 originalPosition;
     private Quaternion originalRotation;
-    private Transform originalParent;
+   
     private bool isDragging;
 
     [Header("Hover 설정")]
     [SerializeField] private float hoverScale = 1.1f;
     RectTransform rect;
 
+    private int handIndex = 0;
+
     private void Awake()
     {
         rect = GetComponent<RectTransform>();
+    }
+
+    public void SetIndex (int index)
+    {
+        handIndex = index;
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -43,15 +50,15 @@ public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUp
     public void OnPointerDown(PointerEventData eventData)
     {
         if (isDragging) return;
-        if (dragArea == null) return;
+     
 
         isDragging = true;
 
-        originalPosition = rect.localPosition;
-        originalRotation = rect.localRotation;
-        originalParent = rect.parent;
+        originalPosition = rect.position;
+       
+     
 
-        rect.SetParent(dragArea);
+       
     }
 
     // 드래그 중
@@ -72,9 +79,8 @@ public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUp
 
         if (CostManager.Instance.Mana < cost)
         {
-            rect.SetParent(originalParent);
-            rect.localPosition = originalPosition;
-            rect.localRotation = originalRotation;
+
+            ReturnCard();
             return;
         }
 
@@ -112,24 +118,37 @@ public class Card : MonoBehaviour, IPointerDownHandler, IDragHandler, IPointerUp
         if (used)
         {
             CostManager.Instance.UseMana(cost);
+            CardManager.Instance.ArrangeCards();
             Destroy(gameObject);
             return;
         }
 
-        rect.SetParent(originalParent);
-        rect.localPosition = originalPosition;
-        rect.localRotation = originalRotation;
+
+        ReturnCard();
+    }
+
+    void ReturnCard()
+    {
+        rect.position = originalPosition;
+        rect.rotation = originalRotation;
     }
 
     // 마우스가 UI 요소 위에 올라 왔을 때
     public void OnPointerEnter(PointerEventData eventData)
     {
+        originalRotation = rect.rotation;
+        rect.rotation = Quaternion.identity;
+
         rect.localScale = Vector3.one * hoverScale;
+        transform.SetAsLastSibling();
     }
 
     // 마우스가 UI 요소 밖으로 나갈 때
     public void OnPointerExit(PointerEventData eventData)
     {
+        rect.rotation = originalRotation;
+
         rect.localScale = Vector3.one;
+        transform.SetSiblingIndex(handIndex);
     }
 }
